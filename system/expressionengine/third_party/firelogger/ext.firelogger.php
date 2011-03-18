@@ -75,8 +75,10 @@ class Firelogger_ext {
    */
   function load_firelogger()
   {
+
+    // require firelogger
     require_once PATH_THIRD . 'firelogger/lib/firelogger_php/firelogger.php';
-    flog("FireLogger Enabled");
+
   }
 
 }
